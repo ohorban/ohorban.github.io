@@ -1,6 +1,6 @@
 body{
-    color: white;
-    background-color: rgb(33, 31, 31);
+    color: rgb(242, 242, 242);
+    background-color: rgb(19, 19, 19);
 }
 
 p{
@@ -54,7 +54,7 @@ h1{
   }
 
   a{
-      color: white;
+      color: rgb(242, 242, 242);
       text-decoration-line: underline;
   }
 
