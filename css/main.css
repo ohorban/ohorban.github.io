@@ -1,6 +1,6 @@
 body{
     color: white;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(33, 31, 31);
 }
 
 p{
@@ -21,13 +21,13 @@ h1{
   /* Control the left side */
   .left {
     left: 0;
-    background-image: url("img/digital.jpg");
+    /*background-image: url("/Users/oleksandr/Documents/GitHub/ohorban.github.io/img/digitalimg.jpg");*/
   }
   
   /* Control the right side */
   .right {
     right: 0;
-    background-image: url(/Users/oleksandr/Documents/GitHub/ohorban.github.io/img/filmimg.jpg);
+    /*background-image: url("/Users/oleksandr/Documents/GitHub/ohorban.github.io/img/filmimg.jpg");*/
   }
   
   /* If you want the content centered horizontally and vertically */
