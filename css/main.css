@@ -55,5 +55,9 @@ h1{
 
   a{
       color: white;
-      text-decoration-line: none;
+      text-decoration-line: underline;
+  }
+
+  #noline{
+    text-decoration-line: none;
   }
