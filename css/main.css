@@ -11,7 +11,7 @@ h1{
     width: 50%;
     position: absolute;
     z-index: 1;
-    top: 7%;
+    top: 10%;
     overflow-x: hidden;
     padding-top: 20px;
   }
