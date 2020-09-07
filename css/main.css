@@ -52,8 +52,13 @@ h1{
   }
 
   a{
-      color: rgb(242, 242, 242);
-      text-decoration-line: underline;
+    color: rgb(242, 242, 242);
+    text-decoration-line: underline;
+  }
+  a:hover{
+    font-weight: bold;
+    color:black;
+    background-color: rgb(240, 240, 240);
   }
 
   #noline{
