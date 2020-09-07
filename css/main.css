@@ -82,12 +82,21 @@ h1{
     }
 
     .split {
-      height: 50%;
+      height: 100%;
       width: 50%;
       position: absolute;
       z-index: 1;
       top: 10%;
       overflow-x: hidden;
       padding-top: 20px;
+    }
+
+    #bottomTag{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      top: 105%;
+      padding-bottom: 50px;
     }
   }
