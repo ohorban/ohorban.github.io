@@ -42,7 +42,8 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    bottom: -150;
+    bottom: -280;
+    padding-bottom: 100px;
   }
 
   a{
@@ -50,7 +51,7 @@ h1{
     text-decoration-line: underline;
   }
   a:hover{
-    font-size: 35px;
+    font-size: 135%;
     font-weight: bold;
     color:black;
     background-color: rgb(240, 240, 240);
@@ -59,6 +60,7 @@ h1{
   #noline{
     text-decoration-line: none;
   }
+
 
   @media screen and (max-width: 480px){
     body{
