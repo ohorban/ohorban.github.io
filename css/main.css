@@ -7,9 +7,9 @@ h1{
     text-align: center;
 }
 .split {
-    height: 70%;
+    height: 74%;
     width: 50%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 75;
     overflow-x: hidden;
