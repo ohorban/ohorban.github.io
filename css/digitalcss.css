@@ -14,3 +14,6 @@ body{
     color: rgb(242, 242, 242);
     background-color: rgb(19, 19, 19);
 }
+
+@media screen and (max-width: 480px){
+}
