@@ -105,9 +105,9 @@ h1{
     }
 
     #bottomTag{
-      position: absolute;
+      position: relative;
       left: 50%;
-      transform: translate(-50%, -50%);
+      /*transform: translate(-50%, -50%); */
       text-align: center;
       top: 70%;
       padding-bottom: 50px;
