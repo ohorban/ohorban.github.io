@@ -15,9 +15,9 @@ function processVideo() {
   const ctx = canvas.getContext('2d');
 
   function drawAscii() {
-    // Set canvas dimensions to match video dimensions
-    canvas.width = video.videoWidth / 8;
-    canvas.height = video.videoHeight / 8;
+    // Adjust canvas dimensions to a smaller resolution for ASCII conversion
+    canvas.width = video.videoWidth / 10;
+    canvas.height = video.videoHeight / 10;
 
     // Draw the current frame of the video to the canvas
     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
@@ -35,10 +35,10 @@ function processVideo() {
       // Convert the pixel color to grayscale
       const avg = (r + g + b) / 3;
 
-      // Append character based on grayscale value
+      // Map grayscale value to a character
       asciiImage += avg > 128 ? '#' : ' ';
 
-      // Newline after every width (canvas width in this case)
+      // Add a new line after each row of pixels
       if ((i / 4) % canvas.width === canvas.width - 1) {
         asciiImage += '\n';
       }
