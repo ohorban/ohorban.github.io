@@ -1,18 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Live ASCII Video Feed</title>
-  <style>
-    body { font-family: monospace; background-color: black; color: white; }
-    pre { line-height: 6px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Under Construction - Alex Horban</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #1e1e1e;
+            color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #2c2c2c;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ffffff;
+        }
+
+        p, ul {
+            font-size: 1.2em;
+            color: #b0b0b0;
+        }
+
+        .countdown {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #6200ff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #6200ff;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #808080;
+        }
+    </style>
 </head>
 <body>
-  <video id="video" autoplay></video>
-  <pre id="ascii"></pre>
-
-  <script src="ascii_video.js"></script>
+    <div class="container">
+        <h1>Coming Soon!</h1>
+        <p>Hi, I'm Alex Horban, a Data Scientist. My website is under construction, but I’ll be live soon with exciting content!</p>
+        <p>Stay tuned for:</p>
+        <ul>
+            <li>Data Science projects</li>
+            <li>Interactive visualizations</li>
+            <li>Blog posts</li>
+            <li>And more!</li>
+        </ul>
+        <div class="countdown">
+            Estimated launch: <strong>October 2024</strong>
+        </div>
+        <p>In the meantime, check out my <a href="https://github.com/ohorban/">GitHub</a>.</p>
+        <footer>
+            © 2024 Alex Horban | Connect with me on <a href="https://www.linkedin.com/in/ohorban/">LinkedIn</a>
+        </footer>
+    </div>
 </body>
 </html>
